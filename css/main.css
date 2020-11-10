@@ -1,0 +1,102 @@
+/* 1.Base */
+html {
+    background-color: #fff;
+    background-image: url("/images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #000000;
+    font-family:"Open Sans",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 16px;
+    height: auto; /*needs reviewing*/
+    left: 0;
+    line-height: 1.4;
+    min-width: 300px; /*what about viewers with smaller screens?*/
+    overflow-x: hidden;
+    right: 0;
+    width: 100%;
+}
+body {
+    margin: 0px 15px;
+}
+a {
+    color: currentColor;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* 2.Specific */
+/* 2a.Home Page */
+.main-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-nav ul {
+     background-color:#ff781f;
+     display: flex;
+     height: 50px;
+     justify-content: space-evenly;
+     width: 100vw;
+ }
+ .main-nav ul li {
+     display: inline-block;
+     margin-top: 5px;
+ }
+ .main-nav ul li a {
+     color: #fff;
+ }
+ .main-content {
+     font-size: 1.5rem;
+     text-align: center;
+ }
+ figcaption {
+     border-bottom: 3px solid #ff781f ;
+     border-top: 3px solid #ff781f ;
+     font-size: 1.5rem;
+     margin-bottom: 10px;
+ }
+ /* 2b.Menu */
+ .menu-content {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/*2c.Blog*/
+article h1 {
+    text-decoration: underline;
+}
+.blog-body {
+    background-image: url("/images/blog-background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    margin: 0px 15px;
+    width: 100%;
+}
+/* 2d.Contact */
+.contact-wallpaper {
+    align-items: center;
+    background-image: url("/images/contact-background-1.jpg");
+    background-size: cover;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.contact-info {
+    background-color: #fff;
+    font-weight: 900;
+    opacity: 0.8;
+}
+.social {
+    text-align: left;
+}
+.social li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+/* 3.responsiveness */
