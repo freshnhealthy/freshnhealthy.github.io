@@ -50,6 +50,9 @@ a {
      font-size: 1.5rem;
      text-align: center;
  }
+ .main-content ul {
+     list-style: none;
+ }
  figcaption {
      border-bottom: 3px solid #ff781f ;
      border-top: 3px solid #ff781f ;
