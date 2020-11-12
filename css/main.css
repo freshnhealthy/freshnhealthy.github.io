@@ -18,6 +18,7 @@ html {
 }
 body {
     margin: 0px 15px;
+    overflow-x: hidden;
 }
 a {
     color: currentColor;
@@ -84,7 +85,11 @@ article h1 {
     background-size: cover;
     height: auto;
     margin: 0px 15px;
+    overflow-x: hidden;
     width: 100%;
+}
+.blog-item {
+    padding: 20px;
 }
 /* 2d.Contact */
 .contact-wallpaper {
