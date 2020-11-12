@@ -37,7 +37,7 @@ a {
     align-items: center;
      background-color:#ff781f;
      display: flex;
-     height: auto;
+     height: 50px;
      justify-content: space-evenly;
      width: 100vw;
  }
@@ -132,14 +132,3 @@ article h1 {
     width: 100%;
 }
 /* 3.responsiveness */
-@media screen and (max-width:430px) {
-    .main-nav ul {
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    }
-     .main-nav ul li {
-     display: block;
-     margin-top: 5px;
- }
-}
