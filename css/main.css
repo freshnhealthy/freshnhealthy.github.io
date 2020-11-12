@@ -58,21 +58,13 @@ a {
  figcaption {
      border-bottom: 3px solid #ff781f ;
      border-top: 3px solid #ff781f ;
+     color: #ff781f;
      font-family: "Acme";
      font-size: 1.5rem;
      margin-bottom: 10px;
  }
  .motto {
      font-family: "Permanent Marker";
- }
- .dosis {
-     font-family: "Dosis";
- }
- .bigshouldersstencildisplay {
-     font-family: "Big Shoulders Stencil Display";
- }
- .lobster-two {
-     font-family: "Lobster Two";
  }
  /* 2b.Menu */
  .menu-content {
@@ -110,8 +102,13 @@ article h1 {
     font-weight: 900;
     opacity: 0.8;
 }
+.contact-info p {
+    font-size: 1.5rem;
+    padding:20px;
+}
 .social {
     text-align: left;
+    list-style: none;
 }
 .social li {
     /* display: inline-block; */
