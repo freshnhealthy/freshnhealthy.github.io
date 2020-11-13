@@ -19,6 +19,7 @@ html {
 body {
     margin: 0px 15px;
     overflow-x: hidden;
+    width: 100%;
 }
 a {
     color: currentColor;
@@ -36,9 +37,9 @@ a {
 .main-nav ul {
      align-items: center;
      background-color:#ff781f;
-     display: flex;
+     display: grid;
+     grid-template-columns: auto auto auto auto;
      height: 50px;
-     justify-content: space-evenly;
      margin-top: 0px;
      width: 100vw;
  }
@@ -93,19 +94,19 @@ article h1 {
     padding: 20px;
 }
 /* 2d.Contact */
-.contact-wallpaper {
-    align-items: center;
+#contact-body {
     background-image: url("/images/contact-background-1.jpg");
+    background-position: center;
     background-size: cover;
-    display: flex;
-    height:100vh;
-    justify-content: center;
+    height: 100vh;
     left: 0;
     right: 0;
     width: 100%;
 }
 .contact-info {
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
     font-weight: 900;
     opacity: 0.8;
 }
