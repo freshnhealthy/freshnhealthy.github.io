@@ -17,9 +17,8 @@ html {
     width: 100%;
 }
 body {
-    margin: 0px 15px;
+    margin: 0px 0px;
     overflow-x: hidden;
-    width: 100%;
 }
 a {
     color: currentColor;
@@ -37,8 +36,8 @@ a {
 .main-nav ul {
      align-items: center;
      background-color:#ff781f;
-     display: grid;
-     grid-template-columns: auto auto auto auto;
+     display: flex;
+     justify-content: space-evenly;
      height: 50px;
      margin-top: 0px;
      width: 100vw;
@@ -73,7 +72,7 @@ a {
  .menu-content {
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-evenly;
 }
 /*2c.Blog*/
